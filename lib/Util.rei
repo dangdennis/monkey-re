@@ -1,4 +1,4 @@
-/** Returns a colorful "Hello, World" message.
+/* Returns a colorful "Hello, World" message.
 
     {4 Examples}
 
