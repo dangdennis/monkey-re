@@ -58,3 +58,16 @@ let illegal = "ILLEGAL"
   let if_ = "if" 
   let else_ ="else" 
   let return = "return";
+
+  let keywordToIdentifier = keyword => {
+    switch(keyword) {
+    | "fn" => FUNCTION
+    | "let" => LET
+    | "true" => TRUE
+    | "false" => FALSE
+    | "if" => IF
+    | "else" => ELSE
+    | "return" => RETURN
+    | _ => ILLEGAL
+    }
+  }
